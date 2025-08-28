@@ -1,0 +1,26 @@
+{
+    "project": "Task List UI",
+    "language": "en",
+    "tasks": [
+      { "id": "T01", "title": "Initialize project and Tailwind" },
+      { "id": "T02", "title": "Create /tasks page route" },
+      { "id": "T03", "title": "Build Card container skeleton (title, padding, border)" },
+      { "id": "T04", "title": "Implement TaskItem component (checkbox, title, delete button)" },
+      { "id": "T05", "title": "Create useTaskList hook with actions (add, toggle, delete, clearCompleted)" },
+      { "id": "T06", "title": "Implement TaskList component (input + Add button, list of TaskItem, footer)" },
+      { "id": "T07", "title": "Add keyboard interactions (Enter to add, trim whitespace)" },
+      { "id": "T08", "title": "Add accessibility labels (checkbox, add, delete, clear completed)" },
+      { "id": "T09", "title": "Polish styling to match design (spacing, rounded-2xl, shadow, colors)" },
+      { "id": "T10", "title": "Create TaskBoard (4 independent lists/columns)" },
+      { "id": "T11", "title": "Add empty state message for no tasks" },
+      { "id": "T12", "title": "Add delete confirmation (simple confirm or undo)", "optional": true },
+      { "id": "T13", "title": "Add footer copy text (e.g., “Powered by Pinecone academy”)", "optional": true },
+      { "id": "T14", "title": "Expose reusable props (title, listId) for TaskList", "optional": true },
+      { "id": "T15", "title": "Assemble page layout with header badges and demo sections", "optional": true },
+      { "id": "T16", "title": "Write reducer unit tests (add/toggle/delete/clear)", "optional": true },
+      { "id": "T17", "title": "Add README with setup and usage", "optional": true },
+      { "id": "T18", "title": "Set up lint/format/CI", "optional": true },
+      { "id": "T19", "title": "Final visual pass and responsive tweaks" }
+    ]
+  }
+  
